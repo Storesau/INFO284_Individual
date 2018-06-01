@@ -33,7 +33,6 @@ regressor.fit(X_train, y_train)
 
 # Predicting result based on test set
 y_pred = regressor.predict(X_test)
-#y_pred2 = regressor.predict(5.4)
 
 # Scoring model
 regressor.score(X_test, y_test)
